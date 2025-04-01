@@ -7,6 +7,7 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import PricingSection from "@/components/PricingSection";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
+import CTA from "@/components/CTA";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <HowItWorksSection />
       <PricingSection />
       <AboutSection />
+      <CTA />
       <Footer />
     </div>
   );
