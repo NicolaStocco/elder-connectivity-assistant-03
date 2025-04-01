@@ -64,8 +64,8 @@ const Index = () => {
           <div className="mb-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Our Solution</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ella AI enables family members to remotely request, automate, or manage digital tasks 
-              on their elderly loved one's devices — via AI agents that simulate human use of websites, apps, and desktops.
+              Ella AI bridges the gap between people and technology, helping elderly people utilize tools in way tailored to
+              their needs.
             </p>
           </div>
           
