@@ -20,7 +20,8 @@ const Header = () => {
             <div className="text-2xl font-bold text-purple-700">Ella AI</div>
             {!isMobile && (
               <nav className="ml-10 space-x-8">
-                <a href="#features" className="text-gray-600 hover:text-purple-700 font-medium">Features</a>
+                <a href="#challenge" className="text-gray-600 hover:text-purple-700 font-medium">Challenge</a>
+                <a href="#solution" className="text-gray-600 hover:text-purple-700 font-medium">Solution</a>
                 <a href="#how-it-works" className="text-gray-600 hover:text-purple-700 font-medium">How It Works</a>
                 <a href="#pricing" className="text-gray-600 hover:text-purple-700 font-medium">Pricing</a>
                 <a href="#about" className="text-gray-600 hover:text-purple-700 font-medium">About Us</a>
@@ -43,7 +44,7 @@ const Header = () => {
                 Sign In
               </Button>
               <Button className="bg-purple-700 hover:bg-purple-800 text-white">
-                Get Started
+                Join Waitlist
               </Button>
             </div>
           )}
@@ -53,7 +54,8 @@ const Header = () => {
         {isMobile && isOpen && (
           <div className="mt-4 py-3 border-t border-gray-100">
             <nav className="flex flex-col space-y-4">
-              <a href="#features" className="text-gray-600 hover:text-purple-700 font-medium py-2">Features</a>
+              <a href="#challenge" className="text-gray-600 hover:text-purple-700 font-medium py-2">Challenge</a>
+              <a href="#solution" className="text-gray-600 hover:text-purple-700 font-medium py-2">Solution</a>
               <a href="#how-it-works" className="text-gray-600 hover:text-purple-700 font-medium py-2">How It Works</a>
               <a href="#pricing" className="text-gray-600 hover:text-purple-700 font-medium py-2">Pricing</a>
               <a href="#about" className="text-gray-600 hover:text-purple-700 font-medium py-2">About Us</a>
@@ -62,7 +64,7 @@ const Header = () => {
                   Sign In
                 </Button>
                 <Button className="w-full bg-purple-700 hover:bg-purple-800 text-white">
-                  Get Started
+                  Join Waitlist
                 </Button>
               </div>
             </nav>

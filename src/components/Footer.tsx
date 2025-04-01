@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-purple-700 mb-6">Ella AI</h3>
             <p className="text-gray-600 mb-6 max-w-xs">
-              Helping seniors navigate the digital world with dignity and independence.
+              A caring AI companion for the elderly, and peace of mind for their loved ones.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-500 hover:text-purple-700">
@@ -31,17 +31,17 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-gray-800 mb-4">Product</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 hover:text-purple-700">Features</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-purple-700">Pricing</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-purple-700">Testimonials</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-purple-700">How It Works</a></li>
+              <li><a href="#solution" className="text-gray-600 hover:text-purple-700">Features</a></li>
+              <li><a href="#pricing" className="text-gray-600 hover:text-purple-700">Pricing</a></li>
+              <li><a href="#" className="text-gray-600 hover:text-purple-700">Demo</a></li>
+              <li><a href="#how-it-works" className="text-gray-600 hover:text-purple-700">How It Works</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold text-gray-800 mb-4">Company</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 hover:text-purple-700">About Us</a></li>
+              <li><a href="#about" className="text-gray-600 hover:text-purple-700">About Us</a></li>
               <li><a href="#" className="text-gray-600 hover:text-purple-700">Careers</a></li>
               <li><a href="#" className="text-gray-600 hover:text-purple-700">Press</a></li>
               <li><a href="#" className="text-gray-600 hover:text-purple-700">Contact</a></li>
