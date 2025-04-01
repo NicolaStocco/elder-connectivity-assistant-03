@@ -8,6 +8,7 @@ import PricingSection from "@/components/PricingSection";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
+import HealthcareIntegration from "@/components/HealthcareIntegration"
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Header />
       <HeroSection />
       <ChallengeSection />
+      <HealthcareIntegration />
       <SolutionSection />
       <HowItWorksSection />
       <PricingSection />
