@@ -32,7 +32,7 @@ const PricingSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Basic Plan */}
-          <Card className="border-purple-100 overflow-hidden">
+          <Card className="border-purple-100 overflow-hidden relative">
             <CardHeader className="bg-white pb-6 pt-8 px-6">
               <h3 className="text-xl font-bold text-gray-800">Basic</h3>
               <div className="mt-4">
@@ -58,7 +58,7 @@ const PricingSection = () => {
                 </li>
               </ul>
             </CardContent>
-            <CardFooter className="py-6 px-6 bg-gray-50">
+            <CardFooter className="absolute bottom-0 w-full py-6 px-6 bg-gray-100">
               <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
                 Join Waitlist
               </Button>
@@ -76,7 +76,7 @@ const PricingSection = () => {
                 <span className="text-4xl font-bold text-gray-900">
                   {isAnnual ? 'CHF 9.90' : 'CHF 12.90'}
                 </span>
-                <span className="text-gray-500 ml-2">{isAnnual ? '/month, billed annually' : '/month'}</span>
+                <span className="text-gray-500 ml-2">/month</span>
               </div>
               <p className="text-gray-600 mt-2">For families who want peace of mind</p>
             </CardHeader>
@@ -104,7 +104,7 @@ const PricingSection = () => {
                 </li>
               </ul>
             </CardContent>
-            <CardFooter className="py-6 px-6 bg-purple-50">
+            <CardFooter className="absolute bottom-0 w-full py-6 px-6 bg-purple-50">
               <Button className="w-full bg-purple-700 hover:bg-purple-800 text-white">
                 Join Waitlist
               </Button>
@@ -119,7 +119,7 @@ const PricingSection = () => {
                 <span className="text-4xl font-bold text-gray-900">
                   {isAnnual ? 'CHF 19.90' : 'CHF 24.90'}
                 </span>
-                <span className="text-gray-500 ml-2">{isAnnual ? '/month, billed annually' : '/month'}</span>
+                <span className="text-gray-500 ml-2">/month</span>
               </div>
               <p className="text-gray-600 mt-2">For advanced care and home integration</p>
             </CardHeader>
@@ -147,7 +147,7 @@ const PricingSection = () => {
                 </li>
               </ul>
             </CardContent>
-            <CardFooter className="py-6 px-6 bg-gray-50">
+            <CardFooter className="py-6 px-6 bg-gray-100">
               <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
                 Join Waitlist
               </Button>

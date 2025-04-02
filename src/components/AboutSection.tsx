@@ -23,33 +23,35 @@ const AboutSection = () => {
   const teamMembers: TeamMember[] = [
     {
       name: "Sam (not altman)",
-      role: "CEO & Founder",
-      description: "Former ETH researcher with a background in AI promotion materials.",
+      role: "CMO",
+      description: "Former ETH researcher with a background in AI promotion materials. Mom's name is Ella.",
       imageUrl: "./res/sam.png"
     },
     {
-      name: "Sophie Müller",
+      name: "Estelle Wavre",
+      role: "CEO",
+      description: "Doing her PhD at University of St. Gallen in the area of startup accelerators.",
+      imageUrl: "./res/estelle.png"
+    },
+    {
+      name: "Filip Jaksic",
       role: "CTO",
-      description: "AI researcher from University of St. Gallen specializing in natural language processing.",
-      imageUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      description: "Knows how to use MS Paint and Excel (only basics tho).",
+      imageUrl: "./res/filip.png"
     },
     {
-      name: "Marco Rossi",
-      role: "Head of Healthcare",
-      description: "Former healthcare executive with 15+ years in elder care services.",
-      imageUrl: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      name: "Sofiya Guta",
+      role: "COO",
+      description: "Product designer with expertise in accessibility and senior-friendly interfaces. Former tax" +
+          " Consultant at KPMG Switzerland.",
+      imageUrl: "./res/sofiya.png"
     },
     {
-      name: "Lisa Chen",
-      role: "Head of Product",
-      description: "Product designer with expertise in accessibility and senior-friendly interfaces.",
-      imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      name: "Thomas Schmidt",
-      role: "Head of Operations",
-      description: "Healthcare operations expert with experience scaling digital health solutions.",
-      imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      name: "Nicola Stocco",
+      role: "CISO",
+      description: "Healthcare operations expert with experience scaling digital health solutions and information" +
+          " security.",
+      imageUrl: "./res/nicola.png"
     }
   ];
   
