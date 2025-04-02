@@ -84,7 +84,15 @@ export default {
                     700: '#6E59A5',
                     800: '#5A4889',
                     900: '#4A3A73'
-                }
+                },
+				ella: {
+					purple: '#9b87f5',
+					lightPurple: '#D6BCFA',
+					softPurple: '#E5DEFF',
+					softPink: '#FFDEE2',
+					softBlue: '#D3E4FD',
+					softGray: '#F1F0FB',
+				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
