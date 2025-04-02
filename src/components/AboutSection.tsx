@@ -72,7 +72,7 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="py-16 px-4 md:px-8 bg-white">
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto">
         <div className="mb-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">We're Building Ella with Empathy and Expertise</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -80,7 +80,7 @@ const AboutSection = () => {
           </p>
         </div>
         
-        <div className="px-4 sm:px-8 md:px-12 mb-12">
+        <div className="px-4 sm:px-8 mb-12">
           <Carousel 
             className="w-full" 
             setApi={(api) => (apiRef.current = api)}
@@ -91,7 +91,7 @@ const AboutSection = () => {
           >
             <CarouselContent className="-ml-4">
               {teamMembers.map((member, index) => (
-                <CarouselItem key={index} className="pl-4 md:basis-1/3 lg:basis-1/3">
+                <CarouselItem key={index} className="pl-4 md:basis-1/4 lg:basis-1/5">
                   <Card className="overflow-hidden border-purple-100 hover:shadow-md transition-shadow h-full">
                     <div className="aspect-square overflow-hidden bg-gray-100">
                       <img src={member.imageUrl} alt={member.name} className="w-full h-full object-cover" />
@@ -105,8 +105,8 @@ const AboutSection = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-0 sm:-left-12" />
-            <CarouselNext className="right-0 sm:-right-12" />
+            {/*<CarouselPrevious className="left-0 sm:-left-12" />*/}
+            {/*<CarouselNext className="right-0 sm:-right-12" />*/}
           </Carousel>
         </div>
         
