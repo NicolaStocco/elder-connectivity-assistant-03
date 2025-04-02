@@ -47,7 +47,9 @@ const HeroSection = () => {
             <div className="bg-white rounded-2xl shadow-xl p-4 md:p-6 overflow-hidden relative">
               <div className="aspect-[3/4] bg-purple-100 rounded-lg overflow-hidden">
                 <img       
-                  src="./res/Ella.jpeg"
+                  // src="./res/Ella.jpeg"
+                  // src="https://drive.google.com/thumbnail?id=1c9I-thY1TuyNn-Rw7-IvhNjKMb-KPiAQ"
+                  src="https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/Ella.jpeg?raw=true"
                   alt="Elderly woman using tablet with companion app" 
                   className="w-full h-full object-cover"
                 />
