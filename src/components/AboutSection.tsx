@@ -25,33 +25,33 @@ const AboutSection = () => {
       name: "Estelle Wavre",
       role: "CEO",
       description: "MBI at HSG, organized SwissHacks with 150 participants and enhancing the START Fellowship Accelerator",
-      imageUrl: "./res/estelle.png"
+      imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/estelle.png?raw=true"
     },
     {
       name: "Sam Moor-Smith",
       role: "CMO",
       description: "MSc CS at ETH complemented by practical experience developing AI/ML software solutions. Internship at IBM.",
-      imageUrl: "./res/sam.png"
+      imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/sam.png?raw=true"
     },
     {
       name: "Sofiya Guta",
       role: "COO",
       description: "Consultant at KPMG Switzerland with an MBI from HSG. Experienced in managing financials of companies.",
-      imageUrl: "./res/sofiya.png"
+      imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/sofiya.png?raw=true"
     },
     {
       name: "Filip Jaksic",
       role: "CTO",
       description: "MSc CS at ETH with hands-on experience in delivering software solutions. Internship at" +
           " Google.",
-      imageUrl: "./res/filip.png"
+      imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/filip.png?raw=true"
     },
     {
       name: "Nicola Stocco",
       role: "CISO",
       description: "Experienced product owner and information security professional, specializing in data security." +
           " MSc Cyber-sec at ETH.",
-      imageUrl: "./res/nicola.png"
+      imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/nicola.png?raw=true"
     }
   ];
   
