@@ -22,10 +22,10 @@ const AboutSection = () => {
   // Define team members data
   const teamMembers: TeamMember[] = [
     {
-      name: "Daniel Weber",
+      name: "Sam (not altman)",
       role: "CEO & Founder",
-      description: "Former ETH researcher with a background in AI and geriatric care.",
-      imageUrl: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      description: "Former ETH researcher with a background in AI promotion materials.",
+      imageUrl: "./res/sam.png"
     },
     {
       name: "Sophie Müller",
