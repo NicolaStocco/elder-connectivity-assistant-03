@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ShieldCheck } from "lucide-react";
+import {Activity, ArrowRight, ShieldCheck} from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const HeroSection = () => {
@@ -63,8 +63,13 @@ const HeroSection = () => {
                 <div className="text-sm font-medium text-gray-800">Daily check-in complete!</div>
               </div>
             </div>
-            <div className="absolute -top-6 -left-10 transform -rotate-3 bg-white rounded-lg p-3 shadow-md border border-gray-100 max-w-[300px]">
-              <div className="text-sm text-gray-800">"Ms Wavre seems cheerful today! 😊"</div>
+            <div className="absolute -top-6 -left-10 transform -rotate-3 bg-white rounded-lg p-3 shadow-md border border-gray-100 ">
+              <div className="flex items-center space-x-3">
+                <div className="bg-purple-100 p-2 rounded-full">
+                  <Activity className="h-5 w-5 text-purple-700" />
+                </div>
+                <div className="text-sm text-gray-800">"Ms Wavre seems cheerful today! 😊"</div>
+              </div>
             </div>
           </div>
         </div>
