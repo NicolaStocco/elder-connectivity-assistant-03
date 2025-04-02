@@ -45,9 +45,9 @@ const HeroSection = () => {
           
           <div className="w-full md:w-1/2 relative">
             <div className="bg-white rounded-2xl shadow-xl p-4 md:p-6 overflow-hidden relative">
-              <div className="aspect-[4/3] bg-purple-100 rounded-lg overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              <div className="aspect-[2/3] bg-purple-100 rounded-lg overflow-hidden">
+                <img       
+                  src="./res/Ella.jpeg"
                   alt="Elderly woman using tablet with companion app" 
                   className="w-full h-full object-cover"
                 />
@@ -71,7 +71,8 @@ const HeroSection = () => {
       </div>
       
       {/* Partner section */}
-      <div className="container mx-auto max-w-6xl px-4 md:px-8 mt-16">
+      {/* At the moment, this is complete bullshit */}
+      {/* <div className="container mx-auto max-w-6xl px-4 md:px-8 mt-16">
         <div className="text-center">
           <p className="text-sm uppercase tracking-wider text-gray-500 mb-6">In development with healthcare partners across Switzerland</p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70">
@@ -81,7 +82,7 @@ const HeroSection = () => {
             <div className="text-gray-400 font-semibold">Spitex</div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
