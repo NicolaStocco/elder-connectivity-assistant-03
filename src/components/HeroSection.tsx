@@ -53,18 +53,18 @@ const HeroSection = () => {
                 />
               </div>
               
-              <div className="absolute -bottom-4 -right-4 transform rotate-6 bg-white rounded-lg p-3 shadow-md border border-gray-100">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-green-100 h-10 w-10 rounded-full flex items-center justify-center">
-                    <span className="text-green-600 text-lg">✓</span>
-                  </div>
-                  <div className="text-sm font-medium text-gray-800">Daily check-in complete!</div>
+            </div>
+
+            <div className="absolute -bottom-4 -right-4 transform rotate-6 bg-white rounded-lg p-3 shadow-md border border-gray-100">
+              <div className="flex items-center space-x-3">
+                <div className="bg-green-100 h-10 w-10 rounded-full flex items-center justify-center">
+                  <span className="text-green-600 text-lg">✓</span>
                 </div>
+                <div className="text-sm font-medium text-gray-800">Daily check-in complete!</div>
               </div>
             </div>
-            
-            <div className="absolute -top-6 -left-6 transform -rotate-3 bg-white rounded-lg p-3 shadow-md border border-gray-100 max-w-[180px]">
-              <div className="text-sm text-gray-800">"Mom seems cheerful today!"</div>
+            <div className="absolute -top-6 -left-10 transform -rotate-3 bg-white rounded-lg p-3 shadow-md border border-gray-100 max-w-[300px]">
+              <div className="text-sm text-gray-800">"Ms Wavre seems cheerful today! 😊"</div>
             </div>
           </div>
         </div>

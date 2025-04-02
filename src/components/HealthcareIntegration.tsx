@@ -3,7 +3,7 @@ import { Activity, Calendar, FileText, Lock } from "lucide-react";
 
 const HealthcareIntegration = () => {
   return (
-    <section className="section-padding bg-white" id="healthcare">
+    <section className="section-padding bg-white bg-gradient-to-b  from-white to-purple-50" id="healthcare">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display">
