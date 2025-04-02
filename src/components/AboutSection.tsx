@@ -28,7 +28,7 @@ const AboutSection = () => {
       imageUrl: "./res/estelle.png"
     },
     {
-      name: "Sam Not-Altman Smith",
+      name: "Sam Moor-Smith",
       role: "CMO",
       description: "MSc CS at ETH complemented by practical experience developing AI/ML software solutions. Internship at IBM.",
       imageUrl: "./res/sam.png"
