@@ -1,3 +1,4 @@
+
 import { Activity, Calendar, FileText, Lock } from "lucide-react";
 
 const HealthcareIntegration = () => {
@@ -19,15 +20,15 @@ const HealthcareIntegration = () => {
             <div className="bg-gradient-to-r from-ella-purple/20 to-ella-softBlue/30 p-6 rounded-lg mb-8">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm">
-                  <Calendar className="w-5 h-5 text-ella-purple" />
+                  <Calendar className="w-5 h-5 text-purple-500" />
                   <span className="text-sm font-medium">Mood: Cheerful (8/10)</span>
                 </div>
                 <div className="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm">
-                  <Activity className="w-5 h-5 text-ella-purple" />
+                  <Activity className="w-5 h-5 text-purple-500" />
                   <span className="text-sm font-medium">Activity: 2,345 steps today</span>
                 </div>
                 <div className="flex items-center gap-3 bg-white p-3 rounded-lg shadow-sm">
-                  <FileText className="w-5 h-5 text-ella-purple" />
+                  <FileText className="w-5 h-5 text-purple-500" />
                   <span className="text-sm font-medium">
                     Note: Mentioned headache this morning, resolved after breakfast
                   </span>
@@ -48,7 +49,7 @@ const HealthcareIntegration = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6">
-            <div className="feature-card animate-fade-in" style={{ animationDelay: "0.2s" }}>
+            <div className="feature-card p-6 rounded-lg bg-white shadow-md border border-gray-100 hover:shadow-lg transition-shadow animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <h3 className="text-xl font-bold mb-3">Shared History</h3>
               <p className="text-gray-700">
                 Ella builds a timeline of interactions, moods, habits, and symptoms to help track
@@ -56,7 +57,7 @@ const HealthcareIntegration = () => {
               </p>
             </div>
 
-            <div className="feature-card animate-fade-in" style={{ animationDelay: "0.3s" }}>
+            <div className="feature-card p-6 rounded-lg bg-white shadow-md border border-gray-100 hover:shadow-lg transition-shadow animate-fade-in" style={{ animationDelay: "0.3s" }}>
               <h3 className="text-xl font-bold mb-3">Doctor Notes</h3>
               <p className="text-gray-700">
                 Medical professionals can leave notes, after-visit summaries, and care instructions
@@ -64,7 +65,7 @@ const HealthcareIntegration = () => {
               </p>
             </div>
 
-            <div className="feature-card animate-fade-in" style={{ animationDelay: "0.4s" }}>
+            <div className="feature-card p-6 rounded-lg bg-white shadow-md border border-gray-100 hover:shadow-lg transition-shadow animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <h3 className="text-xl font-bold mb-3">Behavioral Data</h3>
               <p className="text-gray-700">
                 Useful for early detection of cognitive decline, depression, or other health concerns
@@ -72,7 +73,7 @@ const HealthcareIntegration = () => {
               </p>
             </div>
 
-            <div className="feature-card animate-fade-in" style={{ animationDelay: "0.5s" }}>
+            <div className="feature-card p-6 rounded-lg bg-white shadow-md border border-gray-100 hover:shadow-lg transition-shadow animate-fade-in" style={{ animationDelay: "0.5s" }}>
               <h3 className="text-xl font-bold mb-3">Consent-Driven Access</h3>
               <p className="text-gray-700">
                 Elderly users maintain control over what information gets shared and with whom,
