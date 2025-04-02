@@ -22,35 +22,35 @@ const AboutSection = () => {
   // Define team members data
   const teamMembers: TeamMember[] = [
     {
-      name: "Sam (not altman)",
-      role: "CMO",
-      description: "Former ETH researcher with a background in AI promotion materials. Mom's name is Ella.",
-      imageUrl: "./res/sam.png"
-    },
-    {
       name: "Estelle Wavre",
       role: "CEO",
-      description: "Doing her PhD at University of St. Gallen in the area of startup accelerators.",
+      description: "MBI at HSG, organized SwissHacks with 150 participants and enhancing the START Fellowship Accelerator",
       imageUrl: "./res/estelle.png"
     },
     {
-      name: "Filip Jaksic",
-      role: "CTO",
-      description: "Knows how to use MS Paint and Excel (only basics tho).",
-      imageUrl: "./res/filip.png"
+      name: "Sam Not-Altman Smith",
+      role: "CMO",
+      description: "MSc CS at ETH complemented by practical experience developing AI/ML software solutions. Internship at IBM.",
+      imageUrl: "./res/sam.png"
     },
     {
       name: "Sofiya Guta",
       role: "COO",
-      description: "Product designer with expertise in accessibility and senior-friendly interfaces. Former tax" +
-          " Consultant at KPMG Switzerland.",
+      description: "Consultant at KPMG Switzerland with an MBI from HSG. Experienced in managing financials of companies.",
       imageUrl: "./res/sofiya.png"
+    },
+    {
+      name: "Filip Jaksic",
+      role: "CTO",
+      description: "MSc CS at ETH with hands-on experience in delivering software solutions. Internship at" +
+          " Google.",
+      imageUrl: "./res/filip.png"
     },
     {
       name: "Nicola Stocco",
       role: "CISO",
-      description: "Healthcare operations expert with experience scaling digital health solutions and information" +
-          " security.",
+      description: "Experienced product owner and information security professional, specializing in data security." +
+          " MSc Cyber-sec at ETH.",
       imageUrl: "./res/nicola.png"
     }
   ];
