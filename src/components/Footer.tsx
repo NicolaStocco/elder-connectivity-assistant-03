@@ -63,7 +63,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <div className="mb-4 md:mb-0">
-            <p>&copy; 2023 Ella AI. All rights reserved.</p>
+            <p>&copy; 2025 Ella AI. All rights reserved.</p>
           </div>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-purple-700">Privacy</a>

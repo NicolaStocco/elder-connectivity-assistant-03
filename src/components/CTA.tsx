@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const CTA = () => {
   return (
-    <section className="section-padding bg-slate-50" id="cta">
+    <section className="section-padding bg-ella-softGray" id="cta">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto rounded-2xl bg-white p-10 md:p-16 relative overflow-hidden shadow-xl border border-gray-100">
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40"></div>

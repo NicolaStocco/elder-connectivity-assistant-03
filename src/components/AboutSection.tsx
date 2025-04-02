@@ -45,6 +45,28 @@ const AboutSection = () => {
               <p className="text-gray-600 text-sm">Former healthcare executive with 15+ years in elder care services.</p>
             </div>
           </Card>
+
+          <Card className="overflow-hidden border-purple-100 hover:shadow-md transition-shadow">
+            <div className="aspect-square overflow-hidden bg-gray-100">
+              <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team Member" className="w-full h-full object-cover" />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-semibold mb-1">Marco Rossi</h3>
+              <p className="text-purple-700 text-sm mb-3">Head of Healthcare</p>
+              <p className="text-gray-600 text-sm">Former healthcare executive with 15+ years in elder care services.</p>
+            </div>
+          </Card>
+
+          <Card className="overflow-hidden border-purple-100 hover:shadow-md transition-shadow">
+            <div className="aspect-square overflow-hidden bg-gray-100">
+              <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team Member" className="w-full h-full object-cover" />
+            </div>
+            <div className="p-6">
+              <h3 className="text-lg font-semibold mb-1">Marco Rossi</h3>
+              <p className="text-purple-700 text-sm mb-3">Head of Healthcare</p>
+              <p className="text-gray-600 text-sm">Former healthcare executive with 15+ years in elder care services.</p>
+            </div>
+          </Card>
         </div>
         
         <div className="mt-12 text-center">
@@ -53,7 +75,7 @@ const AboutSection = () => {
           </blockquote>
         </div>
         
-        <div className="mt-16 bg-gradient-to-r from-purple-600 to-purple-800 rounded-2xl overflow-hidden shadow-xl">
+        {/* <div className="mt-16 bg-gradient-to-r from-purple-600 to-purple-800 rounded-2xl overflow-hidden shadow-xl">
           <div className="px-6 py-12 md:p-12 text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to bring Ella into your family?</h2>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
@@ -63,7 +85,7 @@ const AboutSection = () => {
               Join the Waitlist
             </Button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
