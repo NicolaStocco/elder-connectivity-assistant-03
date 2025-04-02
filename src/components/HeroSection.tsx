@@ -45,7 +45,7 @@ const HeroSection = () => {
           
           <div className="w-full md:w-1/2 relative">
             <div className="bg-white rounded-2xl shadow-xl p-4 md:p-6 overflow-hidden relative">
-              <div className="aspect-[2/3] bg-purple-100 rounded-lg overflow-hidden">
+              <div className="aspect-[3/4] bg-purple-100 rounded-lg overflow-hidden">
                 <img       
                   src="./res/Ella.jpeg"
                   alt="Elderly woman using tablet with companion app" 
