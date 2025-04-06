@@ -72,7 +72,7 @@ const SolutionSection = () => {
                 <img
                     src="https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/Ella-app_noBG.png?raw=true"
                     alt="Ella App interface showing daily updates and reminders"
-                    className="rounded-lg shadow-xl max-w-full h-auto"
+                    className="rounded-lg max-w-full h-auto"
                     style={{ maxHeight: '600px' }}
                 />
               </div>
@@ -83,7 +83,7 @@ const SolutionSection = () => {
                 <img
                     src="https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/Ella-family-app_noBG.png?raw=true"
                     alt="Ella Family App interface showing elder's status and activities"
-                    className="rounded-lg shadow-xl max-w-full h-auto"
+                    className="rounded-lg max-w-full h-auto"
                     style={{ maxHeight: '600px' }}
                 />
               </div>
