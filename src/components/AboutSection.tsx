@@ -24,13 +24,14 @@ const AboutSection = () => {
     {
       name: "Estelle Wavre",
       role: "CEO",
-      description: "MBI at HSG, organized SwissHacks with 150 participants and enhancing the START Fellowship Accelerator",
+      description: "MBI at HSG, organized SwissHacks with more than 150 participants and key contributor to the START" +
+          " Fellowship Accelerator.",
       imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/estelle.png?raw=true"
     },
     {
       name: "Sam Moor-Smith",
       role: "CMO",
-      description: "MSc CS at ETH complemented by practical experience developing AI/ML software solutions. Internship at IBM.",
+      description: "MSc CS at ETH complemented by practical experience developing AI/ML systems. Internship at IBM.",
       imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/sam.png?raw=true"
     },
     {
@@ -42,7 +43,8 @@ const AboutSection = () => {
     {
       name: "Filip Jaksic",
       role: "CTO",
-      description: "MSc CS at ETH with hands-on experience in delivering software solutions. Internship at" +
+      description: "MSc CS at ETH with hands-on experience in big data and delivering software solutions. Internship" +
+          " at" +
           " Google.",
       imageUrl: "https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/filip.png?raw=true"
     },
