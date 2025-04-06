@@ -68,7 +68,7 @@ const HeroSection = () => {
                 <div className="bg-purple-100 p-2 rounded-full">
                   <Activity className="h-5 w-5 text-purple-700" />
                 </div>
-                <div className="text-sm text-gray-800">"Ms Wavre seems cheerful today! 😊"</div>
+                <div className="text-sm font-medium text-gray-800">Ms Wavre seems cheerful today! 😊</div>
               </div>
             </div>
           </div>
