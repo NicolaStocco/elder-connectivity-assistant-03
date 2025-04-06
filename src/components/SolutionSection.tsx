@@ -70,7 +70,7 @@ const SolutionSection = () => {
               </div>
               <div className="md:w-1/2 flex justify-center">
                 <img
-                    src="res/Ella-app.png"
+                    src="https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/Ella-app.png?raw=true"
                     alt="Ella App interface showing daily updates and reminders"
                     className="rounded-lg shadow-xl max-w-full h-auto"
                     style={{ maxHeight: '600px' }}
@@ -81,7 +81,7 @@ const SolutionSection = () => {
             <div className="flex flex-col-reverse md:flex-row gap-8 items-center">
               <div className="md:w-1/2 flex justify-center">
                 <img
-                    src="res/Ella-family-app.png"
+                    src="https://github.com/NicolaStocco/elder-connectivity-assistant-03/blob/main/res/Ella-family-app.png?raw=true"
                     alt="Ella Family App interface showing elder's status and activities"
                     className="rounded-lg shadow-xl max-w-full h-auto"
                     style={{ maxHeight: '600px' }}
