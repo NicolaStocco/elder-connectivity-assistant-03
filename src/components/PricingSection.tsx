@@ -6,7 +6,7 @@ import { Switch } from "@/components/ui/switch";
 import { CheckCircle } from "lucide-react";
 
 const PricingSection = () => {
-  const [isAnnual, setIsAnnual] = useState(false);
+  const [isAnnual, setIsAnnual] = useState(true);
 
   const toggleBilling = () => {
     setIsAnnual(!isAnnual);
