@@ -21,7 +21,7 @@ const Header = () => {
             {!isMobile && (
               <nav className="ml-10 space-x-8">
                 <a href="#challenge" className="text-gray-600 hover:text-purple-700 font-medium">Challenge</a>
-                <a href="#solution" className="text-gray-600 hover:text-purple-700 font-medium">Solution</a>
+                <a href="#solutions" className="text-gray-600 hover:text-purple-700 font-medium">Solution</a>
                 <a href="#how-it-works" className="text-gray-600 hover:text-purple-700 font-medium">How It Works</a>
                 <a href="#pricing" className="text-gray-600 hover:text-purple-700 font-medium">Pricing</a>
                 <a href="#about" className="text-gray-600 hover:text-purple-700 font-medium">About Us</a>
