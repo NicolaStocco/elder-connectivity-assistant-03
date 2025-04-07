@@ -90,7 +90,7 @@ import { MessageSquare, CalendarCheck, Brain, VolumeX, Phone, Activity } from "l
           {/* 📽️ Modal */}
           {isModalOpen && (
             <div className="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center">
-              <div className="relative bg-white rounded-lg overflow-hidden shadow-xl w-[360px] h-[640px]">
+              <div className="relative bg-white rounded-lg overflow-hidden shadow-xl w-[450px] h-[800px]">
                 <button
                   onClick={() => setIsModalOpen(false)}
                   className="absolute top-2 right-3 text-white bg-purple-700 hover:bg-purple-800 rounded-full w-8 h-8 flex items-center justify-center z-10"
@@ -98,8 +98,8 @@ import { MessageSquare, CalendarCheck, Brain, VolumeX, Phone, Activity } from "l
                   ✕
                 </button>
                 <iframe
-                  width="360"
-                  height="640"
+                  width="450"
+                  height="800"
                   src="https://www.youtube.com/embed/kdJkGHe5uG8?autoplay=1&controls=1"
                   title="Ella YouTube Short"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
