@@ -1,10 +1,10 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { MessageSquare, CalendarCheck, Brain, VolumeX, Phone, Activity } from "lucide-react";
 
 
-const SolutionSection = () => {
+  const SolutionSection = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
   return (
       <section id="solutions" className="py-16 px-4 md:px-8 bg-gradient-to-b from-purple-50 to-white">
         <div className="container mx-auto px-4">
@@ -64,6 +64,15 @@ const SolutionSection = () => {
                           <p className="text-gray-800 font-medium">Easy communication: "Call my daughter" or "Send her a voice note"</p>
                         </div>
                       </li>
+                      {/* ▶️ YouTube Short Button */}
+                      <li className="flex items-start justify-center">
+                      <button
+                        onClick={() => setIsModalOpen(true)}
+                        className="bg-purple-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-purple-800 transition"
+                      >
+                        🎥 Watch Ella in Action
+                      </button>
+                    </li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -77,6 +86,29 @@ const SolutionSection = () => {
                 />
               </div>
             </div>
+
+          {/* 📽️ Modal */}
+          {isModalOpen && (
+            <div className="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center">
+              <div className="relative bg-white rounded-lg overflow-hidden shadow-xl w-[360px] h-[640px]">
+                <button
+                  onClick={() => setIsModalOpen(false)}
+                  className="absolute top-2 right-3 text-white bg-purple-700 hover:bg-purple-800 rounded-full w-8 h-8 flex items-center justify-center z-10"
+                >
+                  ✕
+                </button>
+                <iframe
+                  width="360"
+                  height="640"
+                  src="https://www.youtube.com/embed/kdJkGHe5uG8?autoplay=1&controls=1"
+                  title="Ella YouTube Short"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+            </div>
+          )}
 
             <div className="flex flex-col-reverse md:flex-row gap-8 items-center">
               <div className="md:w-1/2 flex justify-center">
